@@ -32,7 +32,7 @@ namespace Learnging
         //7th Grade 
         List<String> a7 = new List<String>()
         {
-            "", "", "", "", "", "", "", "", "", "", "", "", "", "",
+            "Othman", "Salah", "Salem Baitalmal", "Mohammed", "", "", "", "", "", "", "", "", "", "",
         };
         List<String> b7 = new List<String>()
         {
