@@ -16,18 +16,20 @@
                             0b_01100001, 0b_01101001, 0b_01101100, 0b_01100101, 0b_01100100,
                             0b_00100000, 0b_01101001, 0b_01110100, 0b_00100001 };
 
-            Encrypting encrypting = new Encrypting(msg2, 4);
+            Encrypting encrypting = new Encrypting(msg, 4);
             //TODO Decrypt it to ASCII, that will be useful
             
             Console.WriteLine("--- MESSAGE ----");
             encrypting.print();
+            encrypting.printinAscii();
             Console.WriteLine("--- ENCRYPTED ----");
-            encrypting.encrypt();
             encrypting.print();
+            encrypting.encrypt();
+            encrypting.printinAscii();
             Console.WriteLine("--- DECRYPTED ----");
             encrypting.decrypt();
             encrypting.print();
-
+            encrypting.printinAscii();
             Console.ReadLine();
         }
     }

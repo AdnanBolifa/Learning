@@ -44,8 +44,16 @@ namespace Learnging
             }
             Console.WriteLine();
         }
-
-
+        public void printinAscii()
+        {
+            string result = "";
+            for (int i = 0; i < msg.Length; i++)
+            {
+                result += (char)msg[i];
+            }
+            Console.Write(result + " ");
+            Console.WriteLine();
+        }
     }
 }
 
