@@ -1,4 +1,7 @@
-﻿namespace Learnging
+﻿//Adnan bolifa
+//Learing algorithms in C# 
+//Maybe making some cool projects in the future
+namespace Learnging
 {
     class Program
     {
