@@ -1,6 +1,7 @@
 ﻿//Adnan bolifa
 //Learing algorithms in C# 
 //Maybe making some cool projects in the future.
+//Renamed the repo and fixed it
 namespace Learnging
 {
     class Program
