@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Learnging
 {
-    internal class Random
+    internal class RandomClassSelector
     {
-        Random random = new Random();
+        RandomClassSelector random = new RandomClassSelector();
         int index;
         //9th Grade 
         List<String> a9 = new List<String>()
