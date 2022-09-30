@@ -22,7 +22,6 @@ namespace Learnging
                 int n = random.Next(0, names.Count);
                 System.Console.WriteLine(names[n]);
             }
-            
         }
     }
 }

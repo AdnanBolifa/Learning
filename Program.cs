@@ -7,11 +7,11 @@ namespace Learnging
     {
         public static void Main()
         {
-            List<String> a9 = new List<String>()
+            List<String> names = new List<String>()
             {
                 "Mohammed", "Moataz", "Aiham", "Alhussain", "Hussain", "Anas",
             };
-            ClassSelector classSelector = new ClassSelector(a9);
+            ClassSelector classSelector = new ClassSelector(names);
             classSelector.print();
             Console.ReadLine();
         }
