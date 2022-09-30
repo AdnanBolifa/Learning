@@ -18,9 +18,8 @@ namespace Learnging
                             0b_01011001, 0b_01101111, 0b_01110101, 0b_00100000, 0b_01101110,
                             0b_01100001, 0b_01101001, 0b_01101100, 0b_01100101, 0b_01100100,
                             0b_00100000, 0b_01101001, 0b_01110100, 0b_00100001 };
-
-            Encrypting encrypting = new Encrypting(msg, 4);
-            //TODO Decrypt it to ASCII, that will be useful
+            //Encrypting the msg
+            Encrypting encrypting = new Encrypting(msg, 4, 16);
             
             Console.WriteLine("--- MESSAGE ----");
             encrypting.print();

@@ -11,10 +11,12 @@ namespace Learnging
     {
         int[] msg;
         int key;
-        public Encrypting(int[] msg, int key)
+        int form;
+        public Encrypting(int[] msg, int key, int form)
         {
             this.msg = msg;
             this.key = key;
+            this.form = form;
         }
 
         
@@ -40,7 +42,7 @@ namespace Learnging
         {
             for (int i = 0; i < msg.Length; i++)
             {
-                Console.Write(Convert.ToString(msg[i], toBase: 2) + " ");
+                Console.Write(Convert.ToString(msg[i], toBase: form) + " ");
             }
             Console.WriteLine();
         }
