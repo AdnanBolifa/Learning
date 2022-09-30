@@ -7,7 +7,19 @@ namespace Learnging
     {
         public static void Main()
         {
-            //!Hello,Girls!
+            List<String> a9 = new List<String>()
+            {
+                "Mohammed", "Moataz", "Aiham", "Alhussain", "Hussain", "Anas",
+            };
+            ClassSelector classSelector = new ClassSelector(a9);
+            classSelector.print();
+            Console.ReadLine();
+        }
+    }
+}
+    
+
+            /*//!Hello,Girls!
             int[] msg = {    0b_00100001, 0b_01001000, 0b_01100101, 0b_01101100, 0b_01101100,
                              0b_01101111, 0b_00101100, 0b_00100000, 0b_01000111, 0b_01101001,
                              0b_01110010, 0b_01101100, 0b_01110011, 0b_00100001 };
@@ -31,10 +43,4 @@ namespace Learnging
             Console.WriteLine("--- DECRYPTED ----");
             encrypting.decrypt();
             encrypting.print();
-            encrypting.printinAscii();
-            Console.ReadLine();
-        }
-    }
-}
-    
-
+            encrypting.printinAscii();*/
