@@ -9,19 +9,20 @@ namespace Learnging
     
     public class Encrypting
     {
-        int[] msg;
+        byte[] msg;
         int key;
         int form;
-        public Encrypting(int[] msg, int key, int form)
+
+        public Encrypting(string msg, int key, int form)
         {
-            this.msg = msg;
+            this.msg = System.Text.Encoding.ASCII.GetBytes(msg);
             this.key = key;
             this.form = form;
         }
 
         
         //left shift
-        public int[] encrypt()
+        public byte[] encrypt()
         {
             for (int i = 0; i < msg.Length; i++)
             {
@@ -29,7 +30,7 @@ namespace Learnging
             }
             return msg;
         }
-        public int[] decrypt()
+        public byte[] decrypt()
         {
             for (int i = 0; i < msg.Length; i++)
             {
