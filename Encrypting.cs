@@ -18,6 +18,7 @@ namespace Learnging
             this.msg = System.Text.Encoding.ASCII.GetBytes(msg);
             this.key = key;
             this.form = form;
+            
         }
 
         

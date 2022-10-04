@@ -9,18 +9,19 @@ namespace Learnging
     public class ClassSelector
     {
         List<String> names;
-        public ClassSelector(List<String> names)
+        int number;
+        public ClassSelector(List<String> names, int number)
         {
             this.names = names;
+            this.number = number;
         }
         public void print()
         {
-            Random random = new Random();
-            
-            foreach (var name in names)
+            var rnd = new Random();
+            var numbers = Enumerable.Range(0, names.Count).OrderBy(x => rnd.Next()).Take(number).ToList();
+            foreach (var number in numbers)
             {
-                int n = random.Next(0, names.Count);
-                System.Console.WriteLine(names[n]);
+                Console.WriteLine(names[number]);
             }
         }
     }
