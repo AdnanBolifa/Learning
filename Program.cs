@@ -10,8 +10,8 @@ namespace Learnging
         {
 
             Names names = new Names();
-            List<String> classes = names.b9;
-            ClassSelector classSelector = new ClassSelector(classes, 4);
+            List<String> classes = names.b8;
+            ClassSelector classSelector = new ClassSelector(classes, classes.Count);
             classSelector.print();
             Console.ReadLine();
 

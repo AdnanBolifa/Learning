@@ -13,11 +13,11 @@ namespace Learnging
         //8th Grade
         public List<String> a8 = new List<String>()
         {
-            "", "", "", "", "", "", "", ""
+            "Mustafa", "Sulaiman", "El-Madhi", "Radwan", "Eyad", "Mohammed", "Kais", "AbduAllah"
         };
         public List<String> b8 = new List<String>()
         {
-            "Remas", "Zainab", "Remas2*", "Shada", "Kawthar", "Farah", "Noor", "Amna"
+            "Remas*", "Zainab", "Remas2*", "Shada", "Kawthar", "Farah", "Noor*", "Amna"
         };
 
         //7th Grade 
@@ -27,7 +27,7 @@ namespace Learnging
         };
         public List<String> b7 = new List<String>()
         {
-            "", "", "", "", "", "", "", "", "", "", "", "", "", "",
+            "Remas", "Mais", "Remas2", "Hala", "Lujian", "Rawan", "Raghad", "Raghad Ahmed", "", "", "", "", "", "",
         };
     }
 }
