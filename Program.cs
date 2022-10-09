@@ -8,7 +8,7 @@ namespace Learnging
     {
         public static void Main()
         {
-            //Main
+            //Main  w
             Names names = new Names();
             List<String> classes = names.b8;
             ClassSelector classSelector = new ClassSelector(classes, classes.Count);
