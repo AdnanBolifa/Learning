@@ -13,6 +13,10 @@ namespace Learnging
             List<String> classes = names.b8;
             ClassSelector classSelector = new ClassSelector(classes, classes.Count);
             classSelector.print();
+
+
+
+            System.Console.WriteLine("programming"); 
             Console.ReadLine();
 
             
