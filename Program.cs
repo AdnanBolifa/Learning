@@ -8,15 +8,15 @@ namespace Learnging
     {
         public static void Main()
         {
-            //Main22
+            //Main
             Names names = new Names();
-            List<String> classes = names.b8;
-            ClassSelector classSelector = new ClassSelector(classes, classes.Count);
+            List<String> classes = names.b9;
+            ClassSelector classSelector = new ClassSelector(classes, 4);
             classSelector.print();
 
+    
+            
 
-
-            System.Console.WriteLine("programming"); 
             Console.ReadLine();
 
             
